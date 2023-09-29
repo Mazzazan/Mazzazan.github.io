@@ -19,31 +19,7 @@
   /* font-size: 25px; */
 }
 
-@keyframes colorRotate {
-  from {
-    /* background-color: #6666ff; */
-    color: #0099ff;
-  }
-  10% {
-    /* background-color: #0099ff; */
-    color: #00ff00;
-  }
-  50% {
-    /* background-color: #00ff00; */
-    color: #ff3399;
 
-  }
-  75% {
-    /* background-color: #ff3399; */
-    color: #6666ff;
-
-  }
-  100% {
-    /* background-color: #6666ff; */
-    color: #0099ff;
-
-  }
-}
 
   /* Style the links inside the navigation bar */
   .topnav a {
@@ -58,15 +34,6 @@
 
   }
 
-  /* .topnav b {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: monocraft;
-  } */
   
   /* Change the color of links on hover */
   .topnav a:hover {
@@ -75,10 +42,7 @@
     /* color: #6666ff; */
   }
   
-  /* .topnav b:hover {
-    background-color: #ddd;
-    color: black;
-  } */
+  
   /* Add a color to the active/current link */
   .topnav a.active {
     background-color: rgb(140, 95, 16);
@@ -86,10 +50,7 @@
   }
 
 
-  /* .body a {
-    background-color: "background-color:rgb(243, 243, 207);";
 
-  } */
 
 .picture img{
     float: right;
@@ -123,13 +84,7 @@
   cursor: default;
 }
 
-.waduh{
-    animation: colorRotate 6s linear 0s infinite;
-}
 
-.stuff{
-    animation-delay: 5s;
-}
 /* ---------------------------------------------------------------- */
 
 /* profile */ 
@@ -188,11 +143,7 @@
  margin-right: 30px;
  width: 440px;
  border-radius: 20px;
- /* margin-right: 0px;   */
  
-  /* float: left;     */
-   /* margin: 0 15px 0 0; */
-   
 }
 
 .imge3 img{
@@ -203,10 +154,7 @@
  margin-right: 30px;
  width: 760px;
  border-radius: 20px;
- /* margin-right: 0px;   */
- 
-  /* float: left;     */
-   /* margin: 0 15px 0 0; */
+
    
 }
 
@@ -245,10 +193,7 @@
  margin-right: 30px;
  width: 550px;
  border-radius: 20px;
- /* margin-right: 0px;   */
- 
-  /* float: left;     */
-   /* margin: 0 15px 0 0; */
+
    
 }
 
@@ -287,10 +232,7 @@
  margin-right: 30px;
  width: 600px;
  border-radius: 20px;
- /* margin-right: 0px;   */
  
-  /* float: left;     */
-   /* margin: 0 15px 0 0; */
    
 }
 
@@ -317,4 +259,40 @@
   margin-left: 50px;
   color: #323232;
   /* word-wrap: break-word; */
+}
+
+/* ---------------------------------------------------------------- */
+
+@keyframes colorRotate {
+  from {
+    /* background-color: #6666ff; */
+    color: #0099ff;
+  }
+  10% {
+    /* background-color: #0099ff; */
+    color: #00ff00;
+  }
+  50% {
+    /* background-color: #00ff00; */
+    color: #ff3399;
+
+  }
+  75% {
+    /* background-color: #ff3399; */
+    color: #6666ff;
+
+  }
+  100% {
+    /* background-color: #6666ff; */
+    color: #0099ff;
+
+  }
+}
+
+.waduh{
+  animation: colorRotate 6s linear 0s infinite;
+}
+
+.stuff{
+  animation-delay: 5s;
 }
